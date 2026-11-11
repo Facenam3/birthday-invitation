@@ -1,1 +1,39 @@
 @import "tailwindcss";
+
+@layer base {
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+    h1,
+    h2,
+    h3 {
+        font-family: 'Spectral', Georgia, serif;
+    }
+}
+
+@theme {
+  --color-cream-light: #fbf8f1;
+  --color-cream: #f3eee3;
+  --color-cream-dark: #e3dccf;
+
+  --color-ink-light: #4a443d;
+  --color-ink: #111111;
+  --color-ink-dark: #050505;
+
+  --color-accent-light: #e77b4d;
+  --color-accent: #d9541e;
+  --color-accent-dark: #a83a12;
+}
+
+:root {
+  --glass-surface: rgb(255 255 255 / 64%);
+  --glass-border: rgb(255 255 255 / 75%);
+}
+
+@layer components {
+  .glass-panel {
+    background: var(--glass-surface);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(18px);
+  }
+}
