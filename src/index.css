@@ -3,6 +3,12 @@
 @layer base {
     body {
         font-family: 'Montserrat', sans-serif;
+        min-height: 100vh;
+        background-image: url(https://cdn.pixabay.com/photo/2023/12/31/15/47/ai-generated-8480232_1280.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #f3eee3;
     }
     h1,
     h2,
@@ -10,6 +16,7 @@
         font-family: 'Spectral', Georgia, serif;
     }
 }
+
 
 @theme {
   --color-cream-light: #fbf8f1;
