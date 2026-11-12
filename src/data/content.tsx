@@ -3,7 +3,7 @@ import type { InvitationContent } from "../types";
 export const invitationContent: InvitationContent = {
     hero: {
         title: "Две прослави во еден ден",
-        description: "Со радост ве покануваме да ги прославиме крштевањето и првиот роденден на Леонид.",
+        description: "Со радост ве покануваме да ги прославиме крштевањето и првиот роденден на",
         buttonLabel: "Отворете ја поканата.",
     },
     introduction: {
