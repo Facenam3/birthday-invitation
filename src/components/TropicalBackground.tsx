@@ -26,11 +26,12 @@ export function TropicalBackground() {
       aria-hidden="true"
       className="tropical-bg pointer-events-none fixed inset-0 -z-10 overflow-hidden"
     >
-      <div className="absolute left-1 top-1 md:left-10 md:top-10">
-        <Elephant className="w-20 drop-shadow-xl md:w-35" />
-      </div>
+     
       <Leaf className="absolute -left-12 -top-12 w-44 rotate-12 text-palm-light/45 md:w-80" />
       <Leaf className="absolute -bottom-12 -right-12 w-44 -rotate-[168deg] text-palm-light/45 md:w-80" />
+       <div className="absolute left-1 top-1 md:left-10 md:top-10">
+        <Elephant className="w-20 drop-shadow-xl md:w-35" />
+      </div>
 
       <div className="absolute bottom-0 right-1 md:right-10">
         <Giraffe className="w-24 origin-bottom animate-sway md:w-36" />
