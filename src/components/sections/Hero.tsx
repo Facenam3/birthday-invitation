@@ -19,7 +19,7 @@ export function Hero({ onOpen }: HeroProps) {
       id="home"
       className="flex min-h-screen items-center justify-center p-4 md:p-10"
     >
-      <div className="w-full max-w-xl rounded-2xl border border-white/40 bg-cream-light/55 p-6 text-center shadow-xl backdrop-blur-md md:p-10">
+      <div className="w-full max-w-xl rounded-2xl border border-white/40 bg-cream-light/70 p-6 text-center shadow-xl backdrop-blur-md md:p-10">
         <ul className="mb-4 flex flex-wrap justify-center gap-2 cursor-pointer">
           {EVENT_CHIPS.map((chip) => (
             <li
