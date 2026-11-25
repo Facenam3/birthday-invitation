@@ -30,6 +30,13 @@
   --color-palm: #2f6b4f;
   --color-palm-light: #5f9a78;
   --color-sun: #f2c14e;
+
+  --animate-sway: sway 3.5s ease-in-out infinite;
+
+  @keyframes sway {
+    0%, 100% { transform: rotate(-4deg); }
+    50%      { transform: rotate(4deg); }
+  }
 }
 
 :root {
