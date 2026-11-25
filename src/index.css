@@ -4,7 +4,7 @@
      body {
     font-family: 'Montserrat', sans-serif;
     min-height: 100dvh; 
-    background-color: var(--color-cream-dark);
+    background-color: var(--color-cream);
   }
     h1,
     h2,
@@ -16,7 +16,7 @@
 
 @theme {
   --color-cream-light: #fbf8f1;
-  --color-cream: #f3eee3;
+  --color-cream: #E7B957;
   --color-cream-dark: #e3dccf;
 
   --color-ink-light: #4a443d;
