@@ -4,7 +4,7 @@
      body {
     font-family: 'Montserrat', sans-serif;
     min-height: 100dvh; 
-    background-color: var(--color-cream);
+    background-color: var(--color-cream-dark);
   }
     h1,
     h2,
@@ -32,10 +32,16 @@
   --color-sun: #f2c14e;
 
   --animate-sway: sway 3.5s ease-in-out infinite;
+  --animate-trunk: trunk 2.8s ease-in-out infinite;
 
   @keyframes sway {
     0%, 100% { transform: rotate(-4deg); }
     50%      { transform: rotate(4deg); }
+  }
+
+  @keyframes trunk {
+    0%, 100% { transform: rotate(-8deg); }
+    50%      { transform: rotate(8deg); }
   }
 }
 
