@@ -1,15 +1,11 @@
 @import "tailwindcss";
 
 @layer base {
-    body {
-        font-family: 'Montserrat', sans-serif;
-        min-height: 100vh;
-        background-image: url(https://cdn.pixabay.com/photo/2023/12/31/15/47/ai-generated-8480232_1280.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-color: #f3eee3;
-    }
+     body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100dvh; 
+    background-color: var(--color-cream);
+  }
     h1,
     h2,
     h3 {
@@ -30,6 +26,10 @@
   --color-accent-light: #e77b4d;
   --color-accent: #d9541e;
   --color-accent-dark: #a83a12;
+
+  --color-palm: #2f6b4f;
+  --color-palm-light: #5f9a78;
+  --color-sun: #f2c14e;
 }
 
 :root {
@@ -42,5 +42,13 @@
     background: var(--glass-surface);
     border: 1px solid var(--glass-border);
     backdrop-filter: blur(18px);
+  }
+
+  .tropical-bg {
+    background:
+      radial-gradient(45rem 30rem at 0% 0%, rgb(47 107 79 / 28%), transparent 65%),
+      radial-gradient(40rem 28rem at 100% 0%, rgb(242 193 78 / 28%), transparent 65%),
+      radial-gradient(45rem 30rem at 100% 100%, rgb(231 123 77 / 30%), transparent 65%),
+      linear-gradient(180deg, var(--color-cream-light), var(--color-cream));
   }
 }
